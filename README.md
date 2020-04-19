@@ -8,7 +8,7 @@ The 3 algorithm ideas are here resumed:
 I compute the signal derivative approximation and I classify as peaks the points satisfying these conditions: 
 derivative zero crossing & signal amplitude close to the absolute maximum value of the signal.
 
-- peak_detector_index:
+- peak_detector_indexes:
 I scan the signal. I store the region of CONTIGUOUS SAMPLES ABOTHE THE
 THRESHOLD. For each region I store the maximum. Those are the peaks.
 (If two regions are too close bacause of high frequency noise, so they

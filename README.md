@@ -9,7 +9,7 @@ I compute the signal derivative approximation and I classify as peaks the points
 derivative zero crossing & signal amplitude close to the absolute maximum value of the signal.
 
 - peak_detector_indexes:
-I scan the signal. I store the region of CONTIGUOUS SAMPLES ABOTHE THE
+I scan the signal. I store the region of CONTIGUOUS SAMPLES ABOVE THE
 THRESHOLD. For each region I store the maximum. Those are the peaks.
 (If two regions are too close bacause of high frequency noise, so they
 must be merged because they actually belong to the same QRS complex).
